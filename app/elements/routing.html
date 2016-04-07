@@ -41,7 +41,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       next();
     });
 
-    page('/', function() {
+    page('/add/', function() {
       app.route = 'home';
       setFocus(app.route);
     });
@@ -76,7 +76,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     // add #! before urls
     page({
-      hashbang: true
+      hashbang: false
     });
 
   });
