@@ -1,0 +1,35 @@
+
+/* drawerToolbar edit ((menu))*/
+#drawerToolbar:not([style-scope]):not(.style-scope){ background: #0089FF; border-bottom: 0px solid transparent; color: #737373;}
+
+paper-menu .iron-selected{
+    background: #f5f5f5;
+}
+.app-menu{
+    padding: 0px;
+}
+
+.paper-menu-0 .selectable-content.paper-menu > .iron-selected{
+    background: #f5f5f5;
+    font-weight: normal;
+    color: #222;
+}
+
+.paper-menu-0 .selectable-content.paper-menu > *:focus, .paper-menu-0 .selectable-content.paper-menu > .iron-selected:focus, .paper-menu-0 .selectable-content.paper-menu > *:active {
+    position: relative;
+    outline: 0;
+}
+
+
+
+    /* editing shadow border */
+    @media (min-width: 601px){
+        
+        #drawer.paper-drawer-panel > [drawer]:not([style-scope]):not(.style-scope){
+            border: 0px solid white !important;
+         }
+         
+    
+        
+        
+    }
